@@ -40,3 +40,52 @@ void printACSIITable()
 
 	printHorizontalLine(4, 192, 217, 193);
 }
+
+int sum(int a, int b, int c)
+{
+	return a + b + c;
+}
+
+double average(int a, int b, int c)
+{
+	return (a + b + c) / 3;
+}
+
+int product(int a, int b, int c)
+{
+	return a * b * c;
+}
+
+int smallest(int a, int b, int c)
+{
+	int smallest = 0;
+	if (a <= b && a <= c)
+	{
+		smallest = a;
+	} else if(b <= c)
+	{
+		smallest = b;
+	} else
+	{
+		smallest = c;
+	}
+	return smallest;
+}
+
+int largest(int a, int b, int c)
+{
+	int largest = 0;
+	if (a >= b && a >= c)
+	{
+		largest = a;
+	}
+	else if (b >= c)
+	{
+		largest = b;
+	}
+	else
+	{
+		largest = c;
+	}
+	return largest;
+}
