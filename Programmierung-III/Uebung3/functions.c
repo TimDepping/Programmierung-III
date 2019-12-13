@@ -7,7 +7,6 @@ Studiengang:		Informatik
 
 #include "functions.h"
 #include <limits.h>
-#include <stdio.h>
 
 int multiplication(int a, int b)
 {
