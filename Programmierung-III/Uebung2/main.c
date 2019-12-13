@@ -1,7 +1,7 @@
 /*
 Uebung:				2
-Autoren:			Tim Depping
-Matrikelnummer:		20206723
+Autoren:			Student
+Matrikelnummer:		MatNr
 Studiengang:		Informatik
 */
 
