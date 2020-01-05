@@ -1,8 +1,9 @@
-/* Stadt.h
-Test 8: Klassen
-Loose, 20.12.2017
+/*
+Test:				9
+Autoren:			Student
+Matrikelnummer:		MatNr
+Studiengang:		Informatik
 */
-
 #pragma once
 #include <iostream>
 #include <string>
@@ -25,4 +26,3 @@ public:
 	friend ostream& operator << (ostream& s, const Stadt& z);
 	friend istream& operator >> (istream& s, Stadt& z);
 };
-

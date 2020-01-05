@@ -1,10 +1,9 @@
-/* adresse.cpp
- * Aufgabe 8
- * Klassendefinitionen
- * Autor: Harald Loose
- * 12.12.2012
+/*
+Test:				9
+Autoren:			Student
+Matrikelnummer:		MatNr
+Studiengang:		Informatik
 */
-
 #include <string>
 #include "adresse.h"
 
@@ -36,6 +35,5 @@ istream& operator >> (istream& s, Adresse& z)
 	z = Adresse(strasseNr, PLZStadt);
 	return s;
 }
-
 
 

@@ -1,10 +1,9 @@
-/* adresse.h
- * Aufgabe 8
- * Klassendefinitionen
- * Autor: Harald Loose
- * 12.12.2012
+/*
+Test:				9
+Autoren:			Student
+Matrikelnummer:		MatNr
+Studiengang:		Informatik
 */
-
 #include <iostream>
 using namespace std;
 
